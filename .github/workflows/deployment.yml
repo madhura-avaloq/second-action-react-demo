@@ -25,7 +25,7 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm ci
-      - name: Build ProjecT
+      - name: Build Project
         run: npm run build
-        name: Deploy
+      - name: Deploy
         run: echo "Deployment Started"
